@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_blogpost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vinoth.blogreader.BlogpostActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <ImageView
+        android:onClick="pickupimage"
+        android:layout_height="200dp"
+        android:src="@drawable/batman"
+        android:id="@+id/ibtnadd"
+        android:adjustViewBounds="true"
+        android:scaleType="center"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:elevation="17dp"
+        android:layout_width="300dp" />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="BlogPost Title"
+        android:ems="10"
+        android:id="@+id/etBlogTitel"
+        android:layout_margin="10dp"
+        tools:inputType="text|textCapWords" />
+
+    <EditText
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/etdesc"
+        android:hint="Description"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="uploaddatas"
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFFFFF"
+        android:elevation="24dp"
+        android:keepScreenOn="false"
+        android:layout_gravity="top|end"
+        android:password="false"
+        android:layout_marginTop="100dp" />
+
+</LinearLayout>

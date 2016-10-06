@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "962168348309",
+    "firebase_url": "https://blogpost-67edd.firebaseio.com",
+    "project_id": "blogpost-67edd",
+    "storage_bucket": "blogpost-67edd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962168348309:android:120e248426cc44d6",
+        "android_client_info": {
+          "package_name": "com.example.vinoth.blogreader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962168348309-akl1t3eod2lpd9b3g59hdqpfrl80mrmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFal8jg5VwGtA2D8x8X8CDU87wOhfTDZ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
